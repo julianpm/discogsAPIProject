@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Music For Every Mood</title>
+	<link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="setup.css">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+	<main class="main">		
+
+		<div class="wrapper flex">
+
+			<h1>Music For Every Mood</h1>
+
+			<h3>How Are You Feeling Today?</h3>
+
+			<div class="buttonGroup flex">
+
+				<button class='buttonMain' data-mood='prettyAlright'>Pretty Alright</button>
+				<button class='buttonMain' data-mood='prettyCalm'>Pretty Calm</button>
+				<button class='buttonMain' data-mood='prettySad'>Pretty Sad</button>
+				<button class='buttonMain' data-mood='prettyDumb'>Pretty Dumb</button>
+
+			</div> <!-- END OF BUTTONGROUP -->
+
+		</div> <!-- END OF WRAPPER -->
+
+		<footer class="credits flex">	
+				
+				<p>Design by 
+					<a href="http://julianmeanchoff.com">Julian Meanchoff</a>
+					2015
+				</p>
+				
+				<p>
+					<a href="https://www.flickr.com/photos/34316967@N04/6867601519/in/photolist-bsSfEK-3fDLD9-5B147P-8XqgMA-nJ699B-5AZxAF-78Ew57-89Ta6R-ceBq81-te4TPN-6k1kQ7-bLj8SD-5VihST-8XncFX-9Uc5AD-4aGdEz-mcdkmj-qUfa9-5AZwST-j9ke5R-9ma9Ye-G9ryA-oGigN3-9GbezS-7nBGw-aCDdh1-3dL24i-2LzA6B-nyP5W5-5mECWZ-8F7SHc-4n6SZf-o1DrUr-j6vxyU-jSS7U2-gdAoRf-8U4pWi-7uxtdU-dZnjVi-7wSjEN-5Vigb8-5eSpGq-fybyEw-5kSQe-bA9rfi-7kJq1g-7SPqGJ-7SPqdN-7SL7vt-9hLrWw">Side B</a>
+					by
+					<a href="https://www.flickr.com/photos/34316967@N04/">Jason Devaun</a>
+					, used under
+					<a href="http://creativecommons.org/licenses/by/2.0/">CC BY</a>
+					/ cropped and brightness/contrast adjusted from original
+				</p>
+
+		</footer> <!-- END OF CREDITS -->
+
+	</main> <!-- END OF MAIN -->
+
+	<section class="apiReturn isHidden flex">
+
+		<div class="container">
+
+			<h2 class="suggestions">Today's Suggestions</h2>
+			
+			<div class="results flex"></div>
+
+			<footer class="mainFooter">
+				<a class="homeLink" href="/">Home</a>
+			</footer> <!-- END OF FOOTER -->
+
+		</div> <!-- END OF CONTAINER -->
+
+	</section> <!-- END OF APIRETURN -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="flickity.js"></script>
+<script src='musicApp.js'></script>
+
+
+</body>
+</html>
+
+
+
+
+
+<!-- Thanks to: -->
+<!-- Phil Richards and Melissa Clark for the help -->
+<!-- Eric King for the inspiration -->
+<!-- Jason Devaun for the image -->
+<!-- Discogs for the API -->

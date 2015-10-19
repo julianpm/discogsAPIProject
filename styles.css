@@ -1,0 +1,335 @@
+/* UNIVERSAL SETTINGS */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background: #d8d8d8;
+  font-family: "Questrial" sans-serif;
+  word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.isHidden {
+  display: none;
+}
+
+/* MAIN */
+.main {
+  background: url(assets/turntableTwo.jpg) no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: 50% 0;
+}
+
+.main h1 {
+  text-align: center;
+  color: #d8d8d8;
+  margin-top: 10%;
+  max-width: 65%;
+  font-size: 6rem;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.main h3 {
+  color: #d8d8d8;
+  margin-top: 16%;
+  max-width: 65%;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+.buttonGroup {
+  width: 65%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 3%;
+}
+
+.buttonMain {
+  background: black;
+  color: #d8d8d8;
+  border: 1px solid #d8d8d8;
+  width: 46%;
+  margin: 2% 2%;
+  padding: 4% 0;
+  letter-spacing: 1px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  outline: none;
+}
+
+.buttonMain:hover {
+  background: #d8d8d8;
+  color: black;
+  -webkit-transition: 0.75s;
+          transition: 0.75s;
+}
+
+.credits {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.2rem;
+  color: #d8d8d8;
+  text-align: right;
+  padding-top: 5%;
+  max-width: 95%;
+}
+
+.credits p:first-of-type {
+  padding-left: 1%;
+}
+
+.credits p:last-of-type {
+  padding-right: 1%;
+}
+
+.credits a {
+  text-decoration: none;
+  color: #d8d8d8;
+}
+
+.container {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.suggestions {
+  text-align: center;
+  margin: 6% 0;
+  font-size: 4rem;
+}
+
+.results {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.allTheThings {
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  width: 49%;
+  margin: 0.75% 0 0.75% 0;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.bandLogo {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-align-self: flex-start;
+      -ms-flex-item-align: start;
+          align-self: flex-start;
+}
+
+.bandName {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  margin-left: 3%;
+  font-size: 1.5rem;
+}
+
+.mainFooter {
+  text-align: center;
+  margin: 10% 0 5% 0;
+  width: 100%;
+}
+
+.homeLink {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  color: black;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 2% 3%;
+}
+
+.homeLink:hover {
+  background: black;
+  color: #d8d8d8;
+  -webkit-transition: 1s;
+          transition: 1s;
+}
+
+@media all and (max-width: 1000px) {
+  .body {
+    background: black;
+  }
+  .main {
+    background-size: 90%;
+    margin-top: 2%;
+  }
+  .main h1 {
+    margin-top: 20%;
+    font-size: 3.5rem;
+  }
+  .main h3 {
+    color: black;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    padding-top: 43%;
+  }
+  .credits p {
+    padding-top: 20%;
+    color: black;
+    margin: 3% 0;
+  }
+  .credits p:first-of-type {
+    padding-left: 4%;
+  }
+  .credits p:last-of-type {
+    padding-right: 4%;
+  }
+  .credits a {
+    color: black;
+  }
+  .buttonMain {
+    padding: 5% 0;
+    width: 48%;
+    margin: 3% 0;
+    font-size: 2.5rem;
+  }
+  .buttonGroup {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width: 790px) {
+  .credits p {
+    font-size: 1rem;
+  }
+  .allTheThings {
+    width: 75%;
+    margin: 1% auto;
+  }
+  .bandName {
+    font-size: 1.2rem;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .main h1 {
+    font-size: 3rem;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .credits p:last-of-type {
+    padding-top: 0;
+    padding-left: 4%;
+    text-align: left;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .main h1 {
+    font-size: 2.5rem;
+  }
+  .main h3 {
+    font-size: 2.5rem;
+  }
+  .buttonMain {
+    font-size: 2rem;
+  }
+  .allTheThings {
+    width: 100%;
+  }
+  .bandLogo {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .bandName {
+    -webkit-box-flex: 1.5;
+    -webkit-flex: 1.5;
+        -ms-flex: 1.5;
+            flex: 1.5;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .main h1 {
+    font-size: 2rem;
+  }
+  .main h3 {
+    font-size: 2rem;
+  }
+  .buttonMain {
+    font-size: 1.8rem;
+  }
+  .suggestions {
+    font-size: 3rem;
+  }
+}
+
+@media all and (max-width: 375px) {
+  .main h1 {
+    font-size: 1.8rem;
+    padding-left: 4%;
+  }
+  .buttonMain {
+    font-size: 1.5rem;
+  }
+  .bandName {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .bandLogo {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+}
